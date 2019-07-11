@@ -20,8 +20,12 @@ class Form extends Component {
   };
 
   whenSubmitted = () => {
-    this.props.onSubmit(this.state);
-    this.formReset();
+    if (this.state.name === '' || this.state.date === '' || this.state.time === '' || this.state.number === '') {
+      alert('Please enter information for all fields')
+    } else {
+      this.props.onSubmit(this.state);
+      this.formReset();
+    }
   };
 
   formReset = () => {
