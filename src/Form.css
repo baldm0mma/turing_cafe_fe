@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ui.input.focus>input, .ui.input>input:focus {
+  margin: 15px;
+  width :200px;
+}
+
+.ui.button, .ui.buttons .button, .ui.buttons .or {
+  color: #506050;
+  background-color: #85A0B2;
+}
