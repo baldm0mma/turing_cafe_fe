@@ -1,6 +1,8 @@
 .container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 form {
@@ -16,4 +18,5 @@ form {
 .ui.button, .ui.buttons .button, .ui.buttons .or {
   color: #506050;
   background-color: #85A0B2;
+  width: 150px;
 }
